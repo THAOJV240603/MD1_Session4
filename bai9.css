@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.modal{
+    background-color: white;
+    width: 800px;
+    margin: 30px auto;
+    border-radius: 5px; 
+    border: 0.5px solid grey; 
+}
+
+.modal-header{
+    display: flex; 
+    justify-content: space-between; /* Can deu phan tu 2 ben  */
+    font-size: 15px;
+    border-bottom: 0.5px solid black;
+    padding: 15px;
+    color: blue;
+    background-color: rgb(192, 192, 249);
+}
+.modal-arrow-btn a{  /* Chon the a trong hop cha */
+    color: black;
+    text-decoration: none;
+}
+.modal-body{
+    border-bottom: 0.5px solid black;
+    padding: 15px 15px;
+    
+}
+
+.modal-header2{
+    display: flex; 
+    justify-content: space-between; /* Can deu phan tu 2 ben  */
+    font-size: 15px;
+    border-bottom: 0.5px solid black;
+    padding: 15px;
+}
+.modal-arrow-btn2 a{ 
+    color: black;
+    text-decoration: none;
+}
+
+.modal-header3{
+    display: flex; 
+    justify-content: space-between; /* Can deu phan tu 2 ben  */
+    font-size: 15px;
+    padding: 15px;
+}
+.modal-arrow-btn3 a{ 
+    color: black;
+    text-decoration: none;
+}

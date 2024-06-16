@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.modal{
+    background-color: white;
+    width: 650px;
+    margin: 30px auto;
+    border-radius: 5px; 
+    border: 0.5px solid grey;
+}
+
+.modal-header{
+    justify-content: space-between; /* Can deu phan tu 2 ben  */
+    font-size: 15px;
+    border-bottom: 0.5px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}
+
+.modal-body{
+    border-bottom: 0.5px solid gray;
+    padding: 15px 15px;
+    text-align: center;
+}
+.modal-btn button{
+    background-color: #4871F4;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+.modal-footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(235, 233, 233);
+}

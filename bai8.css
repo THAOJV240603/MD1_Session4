@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(237, 232, 232);
+}
+
+.modal{
+    background-color: white;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 5px;  
+}
+
+.modal-header{
+    display: flex; 
+    justify-content: space-between; /* Can deu phan tu 2 ben  */
+    font-size: 15px;
+    border-bottom: 0.5px solid black;
+    padding: 15px;
+}
+
+.modal-close-btn a{  /* Chon the a trong hop cha */
+    color: black;
+    text-decoration: none;
+}
+.modal-body{
+    border-bottom: 0.5px solid black;
+    padding: 15px 15px;
+    text-align: center;
+}
+.modal-footer{
+    padding: 15px;
+    text-align: right;
+}
+.modal-footer button{
+    background-color: #4871F4;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
